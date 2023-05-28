@@ -13,5 +13,5 @@ spark-version   = "10.4.x-scala2.12"
 # presto_port     = "9083"
 compute         = "Standard_DS4_v2"
 Databricks_host = "https://adb-4668595861230540.0.azuredatabricks.net"
-Databricks_token = "dapib9e44acf786ca35a761421ed7b20f30b"
+Databricks_token = "x"
 
