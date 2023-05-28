@@ -1,6 +1,6 @@
 #authentication variable
-# variable "DATABRICKS_HOST" {}
-# variable "DATABRICKS_TOKEN" {}
+variable "Databricks_host" {}
+variable "Databricks_token" {}
 #Basic Details
 variable "cluster-name" {}
 variable "spark-version" {
