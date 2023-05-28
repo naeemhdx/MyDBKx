@@ -2,8 +2,8 @@
 cluster-name    = "platform_Demo_tf_ui"
 spark-version   = "10.4.x-scala2.12"
 #Autoscale min/max worker count
-minworker       = "1"
-maxworker       = "2" 
+# minworker       = "1"
+# maxworker       = "2" 
 #Adls and SPN authentication parameter cdo-qa-datafdn-de-spn
 # adls_name       = "pepdevdatafdnmstradls01"
 # scope_name      = "cdo-datafdn-de-scope"
