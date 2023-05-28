@@ -7,8 +7,8 @@ resource "databricks_cluster" "newcluster" {
   #custom_tags             = local.tags
   is_pinned               = true
   autoscale {
-    min_workers = var.minworker
-    max_workers = var.maxworker
+    min_workers = 1
+    max_workers = 2
   }
 #   custom_tags = {
 #     "ProjectNumber"         : var.ProjectNumber,
