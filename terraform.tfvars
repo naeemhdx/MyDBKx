@@ -1,5 +1,5 @@
 #Cluster Information
-cluster-name    = "cdo-dev-datafdn-mdip-eus01-de01"
+cluster-name    = "platform_Demo_tf_ui"
 spark-version   = "10.4.x-scala2.12"
 #Autoscale min/max worker count
 minworker       = "1"
