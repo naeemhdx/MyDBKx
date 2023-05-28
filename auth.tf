@@ -12,8 +12,8 @@ terraform {
 
 # Use Azure CLI authentication.
 provider "databricks" {
-#   host = var.DATABRICKS_HOST
-#   token = var.DATABRICKS_TOKEN
-    host = ${DATABRICKS_HOST}
-    token = ${DATABRICKS_TOKEN}
+  host = var.Databricks_host
+  token = var.Databricks_token
+#     host = ${DATABRICKS_HOST}
+#     token = ${DATABRICKS_TOKEN}
 }
